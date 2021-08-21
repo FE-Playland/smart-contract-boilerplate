@@ -1,0 +1,5 @@
+spec:
+  - "test/**/*.test.ts" # the positional arguments!
+timeout: "50000"
+require:
+  - ts-node/register/transpile-only
